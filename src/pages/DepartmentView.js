@@ -10,7 +10,6 @@ import Table from "../components/Table";
 const DepartmentView = memo(() => {
   /** path 파라미터 받기 */
   const { deptno } = useParams();
-  console.log(useParams());
 
   /** 리덕스 관련 초기화 */
   const dispatch = useDispatch();

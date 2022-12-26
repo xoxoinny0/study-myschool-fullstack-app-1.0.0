@@ -9,9 +9,7 @@ import TableEx from "../components/TableEx";
 
 const DepartmentEdit = memo(() => {
   /** path 파라미터 받기 */
-
   const { deptno } = useParams();
-
 
   /** 리덕스 관련 초기화 */
   const dispatch = useDispatch();
@@ -19,6 +17,11 @@ const DepartmentEdit = memo(() => {
     (state) => state.DepartmentSlice
   );
 
+  /** 페이지가 열린 직후 (혹은 id값이 변경된 경우) 데이터 가져오기 */
+  useEffect(() => {
+    dispatch(getItem({ id: deptno}));
+  },[deptno]);
+  
   /** 페이지 강제이동 처리를 위한 navigate 함수 생성 */
   const navigate = useNavigate();
 

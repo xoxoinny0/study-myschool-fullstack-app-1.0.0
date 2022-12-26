@@ -86,7 +86,7 @@ const DepartmentList = memo(() => {
 
     const current = e.currentTarget;
 
-    if (window.confirm(`정말 ${current.dataset.name}(을)를 삭제하시겠습니까?`)) {
+    if (window.confirm(`정말 ${current.dataset.dname}(을)를 삭제하시겠습니까?`)) {
       dispatch(deleteItem({ id: current.dataset.deptno })).then(({ payload, error}) => {
         if (error) {
           window.alert(payload.item.rtmsg);
@@ -99,12 +99,29 @@ const DepartmentList = memo(() => {
     }
   });
 
+  /** 검색 이벤트 */
+  const onSearchSubmit = useCallback((e) => {
+    e.preventDefault();
+
+    // 검색어
+    const query = e.currentTarget.query.value;
+
+    // 검색어에 대한 URL을 구성한다.
+    let redirectUrl = query? `/?query=${query}` : "/";
+    navigate(redirectUrl);
+  },[navigate]);
+
   return (
     <div>
       {/* 로딩바 */}
       <Spinner loading={loading} />
 
-      <ControlContainer>
+      {/* 검색폼 */}
+      <ControlContainer onSubmit={onSearchSubmit}>
+        <input type="text" name='query' className="controll" defaultValue={query} />
+        <button type='submit' className="controll clickable">
+          검색
+        </button>
         <NavLink to="department_add" className="controll clickable">
           학과정보 추가하기
         </NavLink>
