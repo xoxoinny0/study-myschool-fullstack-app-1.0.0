@@ -1,0 +1,579 @@
+22/12/23 01:28:49 584 [debug]: --------------------------------------------------
+22/12/23 01:28:49 588 [debug]: |              Start Express Server              |
+22/12/23 01:28:49 588 [debug]: --------------------------------------------------
+22/12/23 01:28:49 589 [debug]: server address => http://192.168.0.14:3001
+22/12/23 01:28:49 590 [debug]: --------------------------------------------------
+22/12/23 01:31:14 883 [debug]: --------------------------------------------------
+22/12/23 01:31:14 888 [debug]: |              Start Express Server              |
+22/12/23 01:31:14 889 [debug]: --------------------------------------------------
+22/12/23 01:31:14 889 [debug]: server address => http://192.168.0.14:3001
+22/12/23 01:31:14 890 [debug]: --------------------------------------------------
+22/12/23 01:31:40 283 [debug]: --------------------------------------------------
+22/12/23 01:31:40 288 [debug]: |              Start Express Server              |
+22/12/23 01:31:40 289 [debug]: --------------------------------------------------
+22/12/23 01:31:40 289 [debug]: server address => http://192.168.0.14:3001
+22/12/23 01:31:40 290 [debug]: --------------------------------------------------
+22/12/23 01:31:50 965 [debug]: --------------------------------------------------
+22/12/23 01:31:50 973 [debug]: |              Start Express Server              |
+22/12/23 01:31:50 982 [debug]: --------------------------------------------------
+22/12/23 01:31:51 174 [debug]: server address => http://192.168.0.14:3001
+22/12/23 01:31:51 175 [debug]: --------------------------------------------------
+22/12/23 01:31:58 379 [debug]: --------------------------------------------------
+22/12/23 01:31:58 383 [debug]: |              Start Express Server              |
+22/12/23 01:31:58 384 [debug]: --------------------------------------------------
+22/12/23 01:31:58 384 [debug]: server address => http://192.168.0.14:3001
+22/12/23 01:31:58 385 [debug]: --------------------------------------------------
+22/12/23 01:32:05 631 [debug]: 클라이언트가 접속했습니다.
+22/12/23 01:32:05 634 [debug]: [GET] http://localhost:3001/
+22/12/23 01:32:05 635 [debug]: [client] ::1 / OS X / Chrome (108.0.0.0) / Apple Mac
+22/12/23 01:32:05 661 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 28ms
+22/12/23 01:32:05 661 [debug]: --------------------------------------------------
+22/12/23 01:32:06 139 [debug]: 클라이언트가 접속했습니다.
+22/12/23 01:32:06 146 [debug]: 클라이언트가 접속했습니다.
+22/12/23 01:34:04 878 [debug]: --------------------------------------------------
+22/12/23 01:34:04 882 [debug]: |              Start Express Server              |
+22/12/23 01:34:04 883 [debug]: --------------------------------------------------
+22/12/23 01:34:04 883 [debug]: server address => http://192.168.0.14:3001
+22/12/23 01:34:04 884 [debug]: --------------------------------------------------
+22/12/23 01:34:13 662 [debug]: --------------------------------------------------
+22/12/23 01:34:13 667 [debug]: |              Start Express Server              |
+22/12/23 01:34:13 667 [debug]: --------------------------------------------------
+22/12/23 01:34:13 671 [debug]: server address => http://192.168.0.14:3001
+22/12/23 01:34:13 683 [debug]: --------------------------------------------------
+22/12/23 01:35:32 524 [debug]: --------------------------------------------------
+22/12/23 01:35:32 528 [debug]: |              Start Express Server              |
+22/12/23 01:35:32 529 [debug]: --------------------------------------------------
+22/12/23 01:35:32 529 [debug]: server address => http://192.168.0.14:3001
+22/12/23 01:35:32 529 [debug]: --------------------------------------------------
+22/12/23 01:35:36 946 [debug]: 클라이언트가 접속했습니다.
+22/12/23 01:35:36 949 [debug]: [GET] http://localhost:3001/department
+22/12/23 01:35:36 989 [debug]: [client] 127.0.0.1 / OS X / Chrome (108.0.0.0) / Apple Mac
+22/12/23 01:35:37 107 [info]:  >> DATABASE 접속됨 [threaId=170]
+22/12/23 01:35:37 108 [info]:  >> Connection 임대됨 [threaId=170]
+22/12/23 01:35:37 116 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/23 01:35:37 230 [info]:  >> Connection 반납됨 [threaId=170]
+22/12/23 01:35:37 231 [info]:  >> Connection 임대됨 [threaId=170]
+22/12/23 01:35:37 239 [debug]: SELECT deptno, dname, loc FROM department  ORDER BY deptno DESC  LIMIT 0, 5
+22/12/23 01:35:37 272 [info]:  >> Connection 반납됨 [threaId=170]
+22/12/23 01:35:37 353 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 406ms
+22/12/23 01:35:37 355 [debug]: --------------------------------------------------
+22/12/23 01:36:27 559 [debug]: --------------------------------------------------
+22/12/23 01:36:27 563 [debug]: |              Start Express Server              |
+22/12/23 01:36:27 563 [debug]: --------------------------------------------------
+22/12/23 01:36:27 564 [debug]: server address => http://192.168.0.14:3001
+22/12/23 01:36:27 564 [debug]: --------------------------------------------------
+22/12/23 01:36:41 747 [debug]: --------------------------------------------------
+22/12/23 01:36:41 751 [debug]: |              Start Express Server              |
+22/12/23 01:36:41 751 [debug]: --------------------------------------------------
+22/12/23 01:36:41 752 [debug]: server address => http://192.168.0.14:3001
+22/12/23 01:36:41 752 [debug]: --------------------------------------------------
+22/12/23 01:36:56 119 [debug]: 클라이언트가 접속했습니다.
+22/12/23 01:36:56 122 [debug]: [GET] http://localhost:3001/department
+22/12/23 01:36:56 123 [debug]: [client] 127.0.0.1 / OS X / Chrome (108.0.0.0) / Apple Mac
+22/12/23 01:36:56 182 [info]:  >> DATABASE 접속됨 [threaId=173]
+22/12/23 01:36:56 184 [info]:  >> Connection 임대됨 [threaId=173]
+22/12/23 01:36:56 194 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/23 01:36:56 226 [info]:  >> Connection 반납됨 [threaId=173]
+22/12/23 01:36:56 227 [info]:  >> Connection 임대됨 [threaId=173]
+22/12/23 01:36:56 230 [debug]: SELECT deptno, dname, loc FROM department  ORDER BY deptno DESC  LIMIT 0, 5
+22/12/23 01:36:56 239 [info]:  >> Connection 반납됨 [threaId=173]
+22/12/23 01:36:56 253 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 132ms
+22/12/23 01:36:56 253 [debug]: --------------------------------------------------
+22/12/23 01:38:20 390 [debug]: 백엔드가 종료되었습니다.
+22/12/23 10:50:17 617 [debug]: --------------------------------------------------
+22/12/23 10:50:17 622 [debug]: |              Start Express Server              |
+22/12/23 10:50:17 623 [debug]: --------------------------------------------------
+22/12/23 10:50:17 627 [debug]: server address => http://192.168.0.14:3001
+22/12/23 10:50:17 646 [debug]: --------------------------------------------------
+22/12/23 10:50:39 657 [debug]: 클라이언트가 접속했습니다.
+22/12/23 10:50:39 724 [debug]: [GET] http://localhost:3001/department
+22/12/23 10:50:39 726 [debug]: [client] 127.0.0.1 / OS X / Chrome (108.0.0.0) / Apple Mac
+22/12/23 10:50:39 969 [info]:  >> DATABASE 접속됨 [threaId=175]
+22/12/23 10:50:39 976 [info]:  >> Connection 임대됨 [threaId=175]
+22/12/23 10:50:39 985 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/23 10:50:40 161 [info]:  >> Connection 반납됨 [threaId=175]
+22/12/23 10:50:40 165 [info]:  >> Connection 임대됨 [threaId=175]
+22/12/23 10:50:40 199 [debug]: SELECT deptno, dname, loc FROM department  ORDER BY deptno DESC  LIMIT 0, 5
+22/12/23 10:50:40 238 [info]:  >> Connection 반납됨 [threaId=175]
+22/12/23 10:50:40 281 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 559ms
+22/12/23 10:50:40 282 [debug]: --------------------------------------------------
+22/12/23 10:51:22 047 [debug]: 클라이언트가 접속했습니다.
+22/12/23 10:51:22 048 [debug]: [GET] http://localhost:3001/department
+22/12/23 10:51:22 050 [debug]: [client] 127.0.0.1 / OS X / Chrome (108.0.0.0) / Apple Mac
+22/12/23 10:51:22 054 [info]:  >> Connection 임대됨 [threaId=175]
+22/12/23 10:51:22 056 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/23 10:51:22 084 [info]:  >> Connection 반납됨 [threaId=175]
+22/12/23 10:51:22 087 [info]:  >> Connection 임대됨 [threaId=175]
+22/12/23 10:51:22 098 [debug]: SELECT deptno, dname, loc FROM department  ORDER BY deptno DESC  LIMIT 0, 5
+22/12/23 10:51:22 103 [info]:  >> Connection 반납됨 [threaId=175]
+22/12/23 10:51:22 107 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 60ms
+22/12/23 10:51:22 111 [debug]: --------------------------------------------------
+22/12/23 10:52:45 296 [debug]: --------------------------------------------------
+22/12/23 10:52:45 300 [debug]: |              Start Express Server              |
+22/12/23 10:52:45 300 [debug]: --------------------------------------------------
+22/12/23 10:52:45 301 [debug]: server address => http://192.168.0.14:3001
+22/12/23 10:52:45 301 [debug]: --------------------------------------------------
+22/12/23 10:52:47 141 [debug]: 클라이언트가 접속했습니다.
+22/12/23 10:52:47 156 [debug]: [GET] http://localhost:3001/department
+22/12/23 10:52:47 194 [debug]: [client] 127.0.0.1 / OS X / Chrome (108.0.0.0) / Apple Mac
+22/12/23 10:52:47 281 [info]:  >> DATABASE 접속됨 [threaId=177]
+22/12/23 10:52:47 282 [info]:  >> Connection 임대됨 [threaId=177]
+22/12/23 10:52:47 288 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/23 10:52:47 313 [info]:  >> Connection 반납됨 [threaId=177]
+22/12/23 10:52:47 314 [info]:  >> Connection 임대됨 [threaId=177]
+22/12/23 10:52:47 319 [debug]: SELECT deptno, dname, loc FROM department  ORDER BY deptno DESC  LIMIT 0, 5
+22/12/23 10:52:47 323 [info]:  >> Connection 반납됨 [threaId=177]
+22/12/23 10:52:47 516 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 362ms
+22/12/23 10:52:47 517 [debug]: --------------------------------------------------
+22/12/23 10:53:10 610 [debug]: --------------------------------------------------
+22/12/23 10:53:10 615 [debug]: |              Start Express Server              |
+22/12/23 10:53:10 655 [debug]: --------------------------------------------------
+22/12/23 10:53:10 658 [debug]: server address => http://192.168.0.14:3001
+22/12/23 10:53:10 658 [debug]: --------------------------------------------------
+22/12/23 10:53:13 467 [debug]: 클라이언트가 접속했습니다.
+22/12/23 10:53:13 477 [debug]: [GET] http://localhost:3001/department
+22/12/23 10:53:13 477 [debug]: [client] 127.0.0.1 / OS X / Chrome (108.0.0.0) / Apple Mac
+22/12/23 10:53:13 572 [info]:  >> DATABASE 접속됨 [threaId=179]
+22/12/23 10:53:13 573 [info]:  >> Connection 임대됨 [threaId=179]
+22/12/23 10:53:13 578 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/23 10:53:13 608 [info]:  >> Connection 반납됨 [threaId=179]
+22/12/23 10:53:13 609 [info]:  >> Connection 임대됨 [threaId=179]
+22/12/23 10:53:13 612 [debug]: SELECT deptno, dname, loc FROM department  ORDER BY deptno DESC  LIMIT 0, 5
+22/12/23 10:53:13 682 [info]:  >> Connection 반납됨 [threaId=179]
+22/12/23 10:53:13 741 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 272ms
+22/12/23 10:53:13 744 [debug]: --------------------------------------------------
+22/12/23 11:06:40 770 [debug]: 클라이언트가 접속했습니다.
+22/12/23 11:06:40 772 [debug]: [GET] http://localhost:3001/department
+22/12/23 11:06:40 772 [debug]: [client] 127.0.0.1 / OS X / Chrome (108.0.0.0) / Apple Mac
+22/12/23 11:06:40 775 [info]:  >> Connection 임대됨 [threaId=179]
+22/12/23 11:06:40 777 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/23 11:06:40 789 [info]:  >> Connection 반납됨 [threaId=179]
+22/12/23 11:06:40 789 [info]:  >> Connection 임대됨 [threaId=179]
+22/12/23 11:06:40 791 [debug]: SELECT deptno, dname, loc FROM department  ORDER BY deptno DESC  LIMIT 0, 5
+22/12/23 11:06:40 794 [info]:  >> Connection 반납됨 [threaId=179]
+22/12/23 11:06:40 795 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 24ms
+22/12/23 11:06:40 796 [debug]: --------------------------------------------------
+22/12/23 11:24:38 090 [debug]: --------------------------------------------------
+22/12/23 11:24:38 094 [debug]: |              Start Express Server              |
+22/12/23 11:24:38 095 [debug]: --------------------------------------------------
+22/12/23 11:24:38 102 [debug]: server address => http://192.168.0.14:3001
+22/12/23 11:24:38 104 [debug]: --------------------------------------------------
+22/12/23 11:24:39 238 [debug]: 클라이언트가 접속했습니다.
+22/12/23 11:24:39 243 [debug]: [GET] http://localhost:3001/department?query=학과&page=5&rows=10
+22/12/23 11:24:39 245 [debug]: [client] 127.0.0.1 / OS X / Chrome (108.0.0.0) / Apple Mac
+22/12/23 11:24:39 328 [info]:  >> DATABASE 접속됨 [threaId=181]
+22/12/23 11:24:39 330 [info]:  >> Connection 임대됨 [threaId=181]
+22/12/23 11:24:39 393 [debug]: SELECT COUNT(*) AS cnt FROM department  WHERE  dname LIKE concat('%', '학과', '%')  OR loc LIKE concat('%', '학과', '%')
+22/12/23 11:24:39 467 [info]:  >> Connection 반납됨 [threaId=181]
+22/12/23 11:24:39 470 [info]:  >> Connection 임대됨 [threaId=181]
+22/12/23 11:24:39 477 [debug]: SELECT deptno, dname, loc FROM department  WHERE  dname LIKE concat('%', '학과', '%')  OR loc LIKE concat('%', '학과', '%')  ORDER BY deptno DESC  LIMIT 10, 10
+22/12/23 11:24:39 486 [info]:  >> Connection 반납됨 [threaId=181]
+22/12/23 11:24:39 528 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 286ms
+22/12/23 11:24:39 529 [debug]: --------------------------------------------------
+22/12/23 11:25:10 546 [debug]: --------------------------------------------------
+22/12/23 11:25:10 550 [debug]: |              Start Express Server              |
+22/12/23 11:25:10 550 [debug]: --------------------------------------------------
+22/12/23 11:25:10 551 [debug]: server address => http://192.168.0.14:3001
+22/12/23 11:25:10 551 [debug]: --------------------------------------------------
+22/12/23 11:25:12 677 [debug]: 클라이언트가 접속했습니다.
+22/12/23 11:25:12 686 [debug]: [GET] http://localhost:3001/department?query=학과&page=1&rows=10
+22/12/23 11:25:12 717 [debug]: [client] 127.0.0.1 / OS X / Chrome (108.0.0.0) / Apple Mac
+22/12/23 11:25:12 869 [info]:  >> DATABASE 접속됨 [threaId=183]
+22/12/23 11:25:12 872 [info]:  >> Connection 임대됨 [threaId=183]
+22/12/23 11:25:12 881 [debug]: SELECT COUNT(*) AS cnt FROM department  WHERE  dname LIKE concat('%', '학과', '%')  OR loc LIKE concat('%', '학과', '%')
+22/12/23 11:25:12 899 [info]:  >> Connection 반납됨 [threaId=183]
+22/12/23 11:25:12 903 [info]:  >> Connection 임대됨 [threaId=183]
+22/12/23 11:25:12 967 [debug]: SELECT deptno, dname, loc FROM department  WHERE  dname LIKE concat('%', '학과', '%')  OR loc LIKE concat('%', '학과', '%')  ORDER BY deptno DESC  LIMIT 0, 10
+22/12/23 11:25:12 971 [info]:  >> Connection 반납됨 [threaId=183]
+22/12/23 11:25:13 003 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 317ms
+22/12/23 11:25:13 003 [debug]: --------------------------------------------------
+22/12/23 11:25:48 417 [debug]: --------------------------------------------------
+22/12/23 11:25:48 422 [debug]: |              Start Express Server              |
+22/12/23 11:25:48 422 [debug]: --------------------------------------------------
+22/12/23 11:25:48 430 [debug]: server address => http://192.168.0.14:3001
+22/12/23 11:25:48 433 [debug]: --------------------------------------------------
+22/12/23 11:26:11 321 [debug]: --------------------------------------------------
+22/12/23 11:26:11 365 [debug]: |              Start Express Server              |
+22/12/23 11:26:11 369 [debug]: --------------------------------------------------
+22/12/23 11:26:11 390 [debug]: server address => http://192.168.0.14:3001
+22/12/23 11:26:11 398 [debug]: --------------------------------------------------
+22/12/23 11:28:19 984 [debug]: --------------------------------------------------
+22/12/23 11:28:19 988 [debug]: |              Start Express Server              |
+22/12/23 11:28:19 988 [debug]: --------------------------------------------------
+22/12/23 11:28:19 989 [debug]: server address => http://192.168.0.14:3001
+22/12/23 11:28:19 989 [debug]: --------------------------------------------------
+22/12/23 11:28:47 285 [debug]: --------------------------------------------------
+22/12/23 11:28:47 289 [debug]: |              Start Express Server              |
+22/12/23 11:28:47 290 [debug]: --------------------------------------------------
+22/12/23 11:28:47 290 [debug]: server address => http://192.168.0.14:3001
+22/12/23 11:28:47 290 [debug]: --------------------------------------------------
+22/12/23 11:28:49 278 [debug]: 클라이언트가 접속했습니다.
+22/12/23 11:28:49 322 [debug]: [GET] http://localhost:3001/department?query=&page=1&rows=10
+22/12/23 11:28:49 345 [debug]: [client] 127.0.0.1 / OS X / Chrome (108.0.0.0) / Apple Mac
+22/12/23 11:28:49 437 [info]:  >> DATABASE 접속됨 [threaId=188]
+22/12/23 11:28:49 440 [info]:  >> Connection 임대됨 [threaId=188]
+22/12/23 11:28:49 455 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/23 11:28:49 475 [info]:  >> Connection 반납됨 [threaId=188]
+22/12/23 11:28:49 478 [info]:  >> Connection 임대됨 [threaId=188]
+22/12/23 11:28:49 483 [debug]: SELECT deptno, dname, loc FROM department  ORDER BY deptno DESC  LIMIT 0, 10
+22/12/23 11:28:49 652 [info]:  >> Connection 반납됨 [threaId=188]
+22/12/23 11:28:49 680 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 401ms
+22/12/23 11:28:49 680 [debug]: --------------------------------------------------
+22/12/23 11:29:39 493 [debug]: --------------------------------------------------
+22/12/23 11:29:39 496 [debug]: |              Start Express Server              |
+22/12/23 11:29:39 497 [debug]: --------------------------------------------------
+22/12/23 11:29:39 497 [debug]: server address => http://192.168.0.14:3001
+22/12/23 11:29:39 498 [debug]: --------------------------------------------------
+22/12/23 11:29:49 133 [debug]: --------------------------------------------------
+22/12/23 11:29:49 137 [debug]: |              Start Express Server              |
+22/12/23 11:29:49 138 [debug]: --------------------------------------------------
+22/12/23 11:29:49 138 [debug]: server address => http://192.168.0.14:3001
+22/12/23 11:29:49 138 [debug]: --------------------------------------------------
+22/12/23 11:29:50 617 [debug]: 클라이언트가 접속했습니다.
+22/12/23 11:29:50 618 [debug]: [GET] http://localhost:3001/department?query=&page=1&rows=10
+22/12/23 11:29:50 619 [debug]: [client] 127.0.0.1 / OS X / Chrome (108.0.0.0) / Apple Mac
+22/12/23 11:29:50 740 [info]:  >> DATABASE 접속됨 [threaId=191]
+22/12/23 11:29:50 742 [info]:  >> Connection 임대됨 [threaId=191]
+22/12/23 11:29:50 765 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/23 11:29:50 794 [info]:  >> Connection 반납됨 [threaId=191]
+22/12/23 11:29:50 797 [info]:  >> Connection 임대됨 [threaId=191]
+22/12/23 11:29:50 808 [debug]: SELECT deptno, dname, loc FROM department  ORDER BY deptno DESC  LIMIT 0, 10
+22/12/23 11:29:50 818 [info]:  >> Connection 반납됨 [threaId=191]
+22/12/23 11:29:50 839 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 221ms
+22/12/23 11:29:50 842 [debug]: --------------------------------------------------
+22/12/23 11:30:10 337 [debug]: --------------------------------------------------
+22/12/23 11:30:10 341 [debug]: |              Start Express Server              |
+22/12/23 11:30:10 343 [debug]: --------------------------------------------------
+22/12/23 11:30:10 344 [debug]: server address => http://192.168.0.14:3001
+22/12/23 11:30:10 345 [debug]: --------------------------------------------------
+22/12/23 11:30:12 831 [debug]: 클라이언트가 접속했습니다.
+22/12/23 11:30:12 876 [debug]: [GET] http://localhost:3001/department/617
+22/12/23 11:30:12 891 [debug]: [client] 127.0.0.1 / OS X / Chrome (108.0.0.0) / Apple Mac
+22/12/23 11:30:13 005 [info]:  >> DATABASE 접속됨 [threaId=193]
+22/12/23 11:30:13 022 [info]:  >> Connection 임대됨 [threaId=193]
+22/12/23 11:30:13 114 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='617'
+22/12/23 11:30:13 148 [info]:  >> Connection 반납됨 [threaId=193]
+22/12/23 11:30:13 165 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 290ms
+22/12/23 11:30:13 173 [debug]: --------------------------------------------------
+22/12/23 11:31:04 461 [debug]: --------------------------------------------------
+22/12/23 11:31:04 465 [debug]: |              Start Express Server              |
+22/12/23 11:31:04 466 [debug]: --------------------------------------------------
+22/12/23 11:31:04 466 [debug]: server address => http://192.168.0.14:3001
+22/12/23 11:31:04 467 [debug]: --------------------------------------------------
+22/12/23 11:31:46 714 [debug]: --------------------------------------------------
+22/12/23 11:31:46 717 [debug]: |              Start Express Server              |
+22/12/23 11:31:46 718 [debug]: --------------------------------------------------
+22/12/23 11:31:46 718 [debug]: server address => http://192.168.0.14:3001
+22/12/23 11:31:46 719 [debug]: --------------------------------------------------
+22/12/23 11:32:24 739 [debug]: --------------------------------------------------
+22/12/23 11:32:24 743 [debug]: |              Start Express Server              |
+22/12/23 11:32:24 744 [debug]: --------------------------------------------------
+22/12/23 11:32:24 744 [debug]: server address => http://192.168.0.14:3001
+22/12/23 11:32:24 745 [debug]: --------------------------------------------------
+22/12/23 11:32:51 097 [debug]: --------------------------------------------------
+22/12/23 11:32:51 099 [debug]: |              Start Express Server              |
+22/12/23 11:32:51 100 [debug]: --------------------------------------------------
+22/12/23 11:32:51 100 [debug]: server address => http://192.168.0.14:3001
+22/12/23 11:32:51 101 [debug]: --------------------------------------------------
+22/12/23 11:32:56 857 [debug]: 클라이언트가 접속했습니다.
+22/12/23 11:32:56 861 [debug]: [POST] http://localhost:3001/department
+22/12/23 11:32:56 884 [debug]: [client] 127.0.0.1 / OS X / Chrome (108.0.0.0) / Apple Mac
+22/12/23 11:32:57 047 [info]:  >> DATABASE 접속됨 [threaId=198]
+22/12/23 11:32:57 050 [info]:  >> Connection 임대됨 [threaId=198]
+22/12/23 11:32:57 084 [debug]: INSERT INTO department (dname, loc) VALUES ('React.js', '1403호')
+22/12/23 11:32:57 182 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='619'
+22/12/23 11:32:57 196 [info]:  >> Connection 반납됨 [threaId=198]
+22/12/23 11:32:57 208 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 350ms
+22/12/23 11:32:57 210 [debug]: --------------------------------------------------
+22/12/23 11:33:11 444 [debug]: --------------------------------------------------
+22/12/23 11:33:11 447 [debug]: |              Start Express Server              |
+22/12/23 11:33:11 447 [debug]: --------------------------------------------------
+22/12/23 11:33:11 448 [debug]: server address => http://192.168.0.14:3001
+22/12/23 11:33:11 448 [debug]: --------------------------------------------------
+22/12/23 11:33:29 577 [debug]: --------------------------------------------------
+22/12/23 11:33:29 580 [debug]: |              Start Express Server              |
+22/12/23 11:33:29 581 [debug]: --------------------------------------------------
+22/12/23 11:33:29 581 [debug]: server address => http://192.168.0.14:3001
+22/12/23 11:33:29 582 [debug]: --------------------------------------------------
+22/12/23 11:33:54 652 [debug]: --------------------------------------------------
+22/12/23 11:33:54 696 [debug]: |              Start Express Server              |
+22/12/23 11:33:54 728 [debug]: --------------------------------------------------
+22/12/23 11:33:54 733 [debug]: server address => http://192.168.0.14:3001
+22/12/23 11:33:54 788 [debug]: --------------------------------------------------
+22/12/23 11:34:12 530 [debug]: --------------------------------------------------
+22/12/23 11:34:12 532 [debug]: |              Start Express Server              |
+22/12/23 11:34:12 533 [debug]: --------------------------------------------------
+22/12/23 11:34:12 533 [debug]: server address => http://192.168.0.14:3001
+22/12/23 11:34:12 533 [debug]: --------------------------------------------------
+22/12/23 11:34:31 422 [debug]: --------------------------------------------------
+22/12/23 11:34:31 426 [debug]: |              Start Express Server              |
+22/12/23 11:34:31 426 [debug]: --------------------------------------------------
+22/12/23 11:34:31 427 [debug]: server address => http://192.168.0.14:3001
+22/12/23 11:34:31 427 [debug]: --------------------------------------------------
+22/12/23 11:34:33 051 [debug]: 클라이언트가 접속했습니다.
+22/12/23 11:34:33 053 [debug]: [PUT] http://localhost:3001/department/619
+22/12/23 11:34:33 053 [debug]: [client] 127.0.0.1 / OS X / Chrome (108.0.0.0) / Apple Mac
+22/12/23 11:34:33 109 [info]:  >> DATABASE 접속됨 [threaId=204]
+22/12/23 11:34:33 110 [info]:  >> Connection 임대됨 [threaId=204]
+22/12/23 11:34:33 113 [debug]: UPDATE department SET dname='React.js수정', loc='1406호'  WHERE deptno='619'
+22/12/23 11:34:33 186 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='619'
+22/12/23 11:34:33 236 [info]:  >> Connection 반납됨 [threaId=204]
+22/12/23 11:34:33 285 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 233ms
+22/12/23 11:34:33 293 [debug]: --------------------------------------------------
+22/12/23 11:34:49 094 [debug]: --------------------------------------------------
+22/12/23 11:34:49 099 [debug]: |              Start Express Server              |
+22/12/23 11:34:49 106 [debug]: --------------------------------------------------
+22/12/23 11:34:49 108 [debug]: server address => http://192.168.0.14:3001
+22/12/23 11:34:49 110 [debug]: --------------------------------------------------
+22/12/23 11:35:06 285 [debug]: --------------------------------------------------
+22/12/23 11:35:06 288 [debug]: |              Start Express Server              |
+22/12/23 11:35:06 289 [debug]: --------------------------------------------------
+22/12/23 11:35:06 289 [debug]: server address => http://192.168.0.14:3001
+22/12/23 11:35:06 289 [debug]: --------------------------------------------------
+22/12/23 11:35:31 084 [debug]: --------------------------------------------------
+22/12/23 11:35:31 087 [debug]: |              Start Express Server              |
+22/12/23 11:35:31 088 [debug]: --------------------------------------------------
+22/12/23 11:35:31 088 [debug]: server address => http://192.168.0.14:3001
+22/12/23 11:35:31 088 [debug]: --------------------------------------------------
+22/12/23 11:35:33 468 [debug]: 클라이언트가 접속했습니다.
+22/12/23 11:35:33 470 [debug]: [DELETE] http://localhost:3001/department/619
+22/12/23 11:35:33 470 [debug]: [client] 127.0.0.1 / OS X / Chrome (108.0.0.0) / Apple Mac
+22/12/23 11:35:33 612 [info]:  >> DATABASE 접속됨 [threaId=208]
+22/12/23 11:35:33 631 [info]:  >> Connection 임대됨 [threaId=208]
+22/12/23 11:35:33 667 [info]:  >> Connection 반납됨 [threaId=208]
+22/12/23 11:35:33 670 [error]: Error: Namespace [StudentMapper] not exists.
+    at MybatisMapper.getStatement (/Users/jiin/Desktop/study-myschool-fullstack-app-1.0.0/node_modules/mybatis-mapper/index.js:86:52)
+    at DepartmentService.deleteItem (/Users/jiin/Desktop/study-myschool-fullstack-app-1.0.0/server/services/DepartmentService.js:138:37)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/jiin/Desktop/study-myschool-fullstack-app-1.0.0/server/controllers/DepartmentController.js:149:7
+22/12/23 11:35:33 736 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 267ms
+22/12/23 11:35:33 746 [debug]: --------------------------------------------------
+22/12/23 11:36:08 756 [debug]: --------------------------------------------------
+22/12/23 11:36:08 759 [debug]: |              Start Express Server              |
+22/12/23 11:36:08 760 [debug]: --------------------------------------------------
+22/12/23 11:36:08 760 [debug]: server address => http://192.168.0.14:3001
+22/12/23 11:36:08 760 [debug]: --------------------------------------------------
+22/12/23 11:36:09 927 [debug]: 클라이언트가 접속했습니다.
+22/12/23 11:36:09 929 [debug]: [GET] http://localhost:3001/department/619
+22/12/23 11:36:09 929 [debug]: [client] 127.0.0.1 / OS X / Chrome (108.0.0.0) / Apple Mac
+22/12/23 11:36:10 085 [info]:  >> DATABASE 접속됨 [threaId=210]
+22/12/23 11:36:10 086 [info]:  >> Connection 임대됨 [threaId=210]
+22/12/23 11:36:10 094 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='619'
+22/12/23 11:36:10 156 [info]:  >> Connection 반납됨 [threaId=210]
+22/12/23 11:36:10 180 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 252ms
+22/12/23 11:36:10 220 [debug]: --------------------------------------------------
+22/12/23 11:36:22 273 [debug]: --------------------------------------------------
+22/12/23 11:36:22 276 [debug]: |              Start Express Server              |
+22/12/23 11:36:22 277 [debug]: --------------------------------------------------
+22/12/23 11:36:22 278 [debug]: server address => http://192.168.0.14:3001
+22/12/23 11:36:22 279 [debug]: --------------------------------------------------
+22/12/23 11:36:39 974 [debug]: --------------------------------------------------
+22/12/23 11:36:39 978 [debug]: |              Start Express Server              |
+22/12/23 11:36:39 982 [debug]: --------------------------------------------------
+22/12/23 11:36:39 984 [debug]: server address => http://192.168.0.14:3001
+22/12/23 11:36:39 985 [debug]: --------------------------------------------------
+22/12/23 11:36:42 194 [debug]: 클라이언트가 접속했습니다.
+22/12/23 11:36:42 197 [debug]: [DELETE] http://localhost:3001/department/619
+22/12/23 11:36:42 199 [debug]: [client] 127.0.0.1 / OS X / Chrome (108.0.0.0) / Apple Mac
+22/12/23 11:36:42 272 [info]:  >> DATABASE 접속됨 [threaId=213]
+22/12/23 11:36:42 274 [info]:  >> Connection 임대됨 [threaId=213]
+22/12/23 11:36:42 278 [info]:  >> Connection 반납됨 [threaId=213]
+22/12/23 11:36:42 280 [error]: Error: Namespace [StudentMapper] not exists.
+    at MybatisMapper.getStatement (/Users/jiin/Desktop/study-myschool-fullstack-app-1.0.0/node_modules/mybatis-mapper/index.js:86:52)
+    at DepartmentService.deleteItem (/Users/jiin/Desktop/study-myschool-fullstack-app-1.0.0/server/services/DepartmentService.js:138:37)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/jiin/Desktop/study-myschool-fullstack-app-1.0.0/server/controllers/DepartmentController.js:149:7
+22/12/23 11:36:42 342 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 147ms
+22/12/23 11:36:42 348 [debug]: --------------------------------------------------
+22/12/23 11:42:18 557 [debug]: 클라이언트가 접속했습니다.
+22/12/23 11:42:18 563 [debug]: [DELETE] http://localhost:3001/department/619
+22/12/23 11:42:18 564 [debug]: [client] 127.0.0.1 / OS X / Chrome (108.0.0.0) / Apple Mac
+22/12/23 11:42:18 568 [info]:  >> Connection 임대됨 [threaId=213]
+22/12/23 11:42:18 569 [info]:  >> Connection 반납됨 [threaId=213]
+22/12/23 11:42:18 570 [error]: Error: Namespace [StudentMapper] not exists.
+    at MybatisMapper.getStatement (/Users/jiin/Desktop/study-myschool-fullstack-app-1.0.0/node_modules/mybatis-mapper/index.js:86:52)
+    at DepartmentService.deleteItem (/Users/jiin/Desktop/study-myschool-fullstack-app-1.0.0/server/services/DepartmentService.js:138:37)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/jiin/Desktop/study-myschool-fullstack-app-1.0.0/server/controllers/DepartmentController.js:149:7
+22/12/23 11:42:18 572 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 9ms
+22/12/23 11:42:18 573 [debug]: --------------------------------------------------
+22/12/23 11:42:32 276 [debug]: 클라이언트가 접속했습니다.
+22/12/23 11:42:32 277 [debug]: [DELETE] http://localhost:3001/department/619
+22/12/23 11:42:32 277 [debug]: [client] 127.0.0.1 / OS X / Chrome (108.0.0.0) / Apple Mac
+22/12/23 11:42:32 279 [info]:  >> Connection 임대됨 [threaId=213]
+22/12/23 11:42:32 280 [info]:  >> Connection 반납됨 [threaId=213]
+22/12/23 11:42:32 280 [error]: Error: Namespace [StudentMapper] not exists.
+    at MybatisMapper.getStatement (/Users/jiin/Desktop/study-myschool-fullstack-app-1.0.0/node_modules/mybatis-mapper/index.js:86:52)
+    at DepartmentService.deleteItem (/Users/jiin/Desktop/study-myschool-fullstack-app-1.0.0/server/services/DepartmentService.js:138:37)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/jiin/Desktop/study-myschool-fullstack-app-1.0.0/server/controllers/DepartmentController.js:149:7
+22/12/23 11:42:32 282 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/12/23 11:42:32 282 [debug]: --------------------------------------------------
+22/12/23 11:43:22 348 [debug]: --------------------------------------------------
+22/12/23 11:43:22 352 [debug]: |              Start Express Server              |
+22/12/23 11:43:22 352 [debug]: --------------------------------------------------
+22/12/23 11:43:22 353 [debug]: server address => http://192.168.0.14:3001
+22/12/23 11:43:22 353 [debug]: --------------------------------------------------
+22/12/23 11:43:29 292 [debug]: 클라이언트가 접속했습니다.
+22/12/23 11:43:29 298 [debug]: [DELETE] http://localhost:3001/department/619
+22/12/23 11:43:29 307 [debug]: [client] 127.0.0.1 / OS X / Chrome (108.0.0.0) / Apple Mac
+22/12/23 11:43:29 409 [info]:  >> DATABASE 접속됨 [threaId=215]
+22/12/23 11:43:29 410 [info]:  >> Connection 임대됨 [threaId=215]
+22/12/23 11:43:29 426 [debug]: DELETE FROM student WHERE deptno='619';
+22/12/23 11:43:29 747 [debug]: DELETE FROM professor WHERE deptno='619';
+22/12/23 11:43:29 769 [debug]: DELETE FROM department WHERE deptno='619'
+22/12/23 11:43:29 771 [info]:  >> Connection 반납됨 [threaId=215]
+22/12/23 11:43:29 781 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 487ms
+22/12/23 11:43:29 781 [debug]: --------------------------------------------------
+22/12/23 11:43:44 533 [debug]: 클라이언트가 접속했습니다.
+22/12/23 11:43:44 534 [debug]: [DELETE] http://localhost:3001/department/619
+22/12/23 11:43:44 535 [debug]: [client] 127.0.0.1 / OS X / Chrome (108.0.0.0) / Apple Mac
+22/12/23 11:43:44 536 [info]:  >> Connection 임대됨 [threaId=215]
+22/12/23 11:43:44 537 [debug]: DELETE FROM student WHERE deptno='619';
+22/12/23 11:43:44 541 [debug]: DELETE FROM professor WHERE deptno='619';
+22/12/23 11:43:44 544 [debug]: DELETE FROM department WHERE deptno='619'
+22/12/23 11:43:44 546 [info]:  >> Connection 반납됨 [threaId=215]
+22/12/23 11:43:44 546 [error]: RuntimeException: 삭제된 데이터가 없습니다.
+    at DepartmentService.deleteItem (/Users/jiin/Desktop/study-myschool-fullstack-app-1.0.0/server/services/DepartmentService.js:151:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/jiin/Desktop/study-myschool-fullstack-app-1.0.0/server/controllers/DepartmentController.js:149:7
+22/12/23 11:43:44 548 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 14ms
+22/12/23 11:43:44 548 [debug]: --------------------------------------------------
+22/12/23 11:44:02 421 [debug]: --------------------------------------------------
+22/12/23 11:44:02 424 [debug]: |              Start Express Server              |
+22/12/23 11:44:02 426 [debug]: --------------------------------------------------
+22/12/23 11:44:02 427 [debug]: server address => http://192.168.0.14:3001
+22/12/23 11:44:02 428 [debug]: --------------------------------------------------
+22/12/23 11:44:04 310 [debug]: 클라이언트가 접속했습니다.
+22/12/23 11:44:04 311 [debug]: [GET] http://localhost:3001/department/619
+22/12/23 11:44:04 312 [debug]: [client] 127.0.0.1 / OS X / Chrome (108.0.0.0) / Apple Mac
+22/12/23 11:44:04 372 [info]:  >> DATABASE 접속됨 [threaId=217]
+22/12/23 11:44:04 373 [info]:  >> Connection 임대됨 [threaId=217]
+22/12/23 11:44:04 377 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='619'
+22/12/23 11:44:04 397 [info]:  >> Connection 반납됨 [threaId=217]
+22/12/23 11:44:04 398 [error]: RuntimeException: 조회된 데이터가 없습니다.
+    at DepartmentService.getItem (/Users/jiin/Desktop/study-myschool-fullstack-app-1.0.0/server/services/DepartmentService.js:55:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/jiin/Desktop/study-myschool-fullstack-app-1.0.0/server/controllers/DepartmentController.js:58:14
+22/12/23 11:44:04 409 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 99ms
+22/12/23 11:44:04 409 [debug]: --------------------------------------------------
+22/12/23 11:48:27 023 [debug]: --------------------------------------------------
+22/12/23 11:48:27 029 [debug]: |              Start Express Server              |
+22/12/23 11:48:27 030 [debug]: --------------------------------------------------
+22/12/23 11:48:27 030 [debug]: server address => http://192.168.0.14:3001
+22/12/23 11:48:27 031 [debug]: --------------------------------------------------
+22/12/23 11:48:47 793 [debug]: --------------------------------------------------
+22/12/23 11:48:47 805 [debug]: |              Start Express Server              |
+22/12/23 11:48:47 819 [debug]: --------------------------------------------------
+22/12/23 11:48:47 841 [debug]: server address => http://192.168.0.14:3001
+22/12/23 11:48:47 850 [debug]: --------------------------------------------------
+22/12/23 23:38:55 808 [debug]: --------------------------------------------------
+22/12/23 23:38:55 815 [debug]: |              Start Express Server              |
+22/12/23 23:38:55 827 [debug]: --------------------------------------------------
+22/12/23 23:38:55 858 [debug]: server address => http://192.168.0.14:3001
+22/12/23 23:38:55 859 [debug]: --------------------------------------------------
+22/12/23 23:42:09 163 [debug]: --------------------------------------------------
+22/12/23 23:42:09 169 [debug]: |              Start Express Server              |
+22/12/23 23:42:09 179 [debug]: --------------------------------------------------
+22/12/23 23:42:09 194 [debug]: server address => http://192.168.0.14:3001
+22/12/23 23:42:09 200 [debug]: --------------------------------------------------
+22/12/23 23:42:26 668 [debug]: --------------------------------------------------
+22/12/23 23:42:26 673 [debug]: |              Start Express Server              |
+22/12/23 23:42:26 673 [debug]: --------------------------------------------------
+22/12/23 23:42:26 675 [debug]: server address => http://192.168.0.14:3001
+22/12/23 23:42:26 675 [debug]: --------------------------------------------------
+22/12/23 23:45:03 188 [debug]: --------------------------------------------------
+22/12/23 23:45:03 194 [debug]: |              Start Express Server              |
+22/12/23 23:45:03 195 [debug]: --------------------------------------------------
+22/12/23 23:45:03 195 [debug]: server address => http://192.168.0.14:3001
+22/12/23 23:45:03 196 [debug]: --------------------------------------------------
+22/12/23 23:45:11 786 [debug]: --------------------------------------------------
+22/12/23 23:45:11 850 [debug]: |              Start Express Server              |
+22/12/23 23:45:11 871 [debug]: --------------------------------------------------
+22/12/23 23:45:11 890 [debug]: server address => http://192.168.0.14:3001
+22/12/23 23:45:11 904 [debug]: --------------------------------------------------
+22/12/23 23:45:24 618 [debug]: --------------------------------------------------
+22/12/23 23:45:24 622 [debug]: |              Start Express Server              |
+22/12/23 23:45:24 637 [debug]: --------------------------------------------------
+22/12/23 23:45:24 641 [debug]: server address => http://192.168.0.14:3001
+22/12/23 23:45:24 653 [debug]: --------------------------------------------------
+22/12/23 23:46:09 700 [debug]: --------------------------------------------------
+22/12/23 23:46:09 703 [debug]: |              Start Express Server              |
+22/12/23 23:46:09 704 [debug]: --------------------------------------------------
+22/12/23 23:46:09 704 [debug]: server address => http://192.168.0.14:3001
+22/12/23 23:46:09 704 [debug]: --------------------------------------------------
+22/12/23 23:48:17 258 [debug]: --------------------------------------------------
+22/12/23 23:48:17 276 [debug]: |              Start Express Server              |
+22/12/23 23:48:17 277 [debug]: --------------------------------------------------
+22/12/23 23:48:17 277 [debug]: server address => http://192.168.0.14:3001
+22/12/23 23:48:17 277 [debug]: --------------------------------------------------
+22/12/23 23:48:48 876 [debug]: --------------------------------------------------
+22/12/23 23:48:48 880 [debug]: |              Start Express Server              |
+22/12/23 23:48:48 881 [debug]: --------------------------------------------------
+22/12/23 23:48:48 892 [debug]: server address => http://192.168.0.14:3001
+22/12/23 23:48:48 894 [debug]: --------------------------------------------------
+22/12/23 23:50:19 347 [debug]: --------------------------------------------------
+22/12/23 23:50:19 353 [debug]: |              Start Express Server              |
+22/12/23 23:50:19 354 [debug]: --------------------------------------------------
+22/12/23 23:50:19 355 [debug]: server address => http://192.168.0.14:3001
+22/12/23 23:50:19 355 [debug]: --------------------------------------------------
+22/12/23 23:51:05 348 [debug]: --------------------------------------------------
+22/12/23 23:51:05 361 [debug]: |              Start Express Server              |
+22/12/23 23:51:05 363 [debug]: --------------------------------------------------
+22/12/23 23:51:05 363 [debug]: server address => http://192.168.0.14:3001
+22/12/23 23:51:05 367 [debug]: --------------------------------------------------
+22/12/23 23:51:45 368 [debug]: --------------------------------------------------
+22/12/23 23:51:45 372 [debug]: |              Start Express Server              |
+22/12/23 23:51:45 372 [debug]: --------------------------------------------------
+22/12/23 23:51:45 375 [debug]: server address => http://192.168.0.14:3001
+22/12/23 23:51:45 377 [debug]: --------------------------------------------------
+22/12/23 23:52:16 280 [debug]: --------------------------------------------------
+22/12/23 23:52:16 296 [debug]: |              Start Express Server              |
+22/12/23 23:52:16 409 [debug]: --------------------------------------------------
+22/12/23 23:52:16 412 [debug]: server address => http://192.168.0.14:3001
+22/12/23 23:52:16 419 [debug]: --------------------------------------------------
+22/12/23 23:52:50 395 [debug]: --------------------------------------------------
+22/12/23 23:52:50 403 [debug]: |              Start Express Server              |
+22/12/23 23:52:50 573 [debug]: --------------------------------------------------
+22/12/23 23:52:50 579 [debug]: server address => http://192.168.0.14:3001
+22/12/23 23:52:50 581 [debug]: --------------------------------------------------
+22/12/23 23:52:54 831 [debug]: --------------------------------------------------
+22/12/23 23:52:54 837 [debug]: |              Start Express Server              |
+22/12/23 23:52:54 870 [debug]: --------------------------------------------------
+22/12/23 23:52:54 908 [debug]: server address => http://192.168.0.14:3001
+22/12/23 23:52:54 919 [debug]: --------------------------------------------------
+22/12/23 23:53:02 827 [debug]: --------------------------------------------------
+22/12/23 23:53:02 831 [debug]: |              Start Express Server              |
+22/12/23 23:53:02 832 [debug]: --------------------------------------------------
+22/12/23 23:53:02 833 [debug]: server address => http://192.168.0.14:3001
+22/12/23 23:53:02 835 [debug]: --------------------------------------------------
+22/12/23 23:54:12 055 [debug]: --------------------------------------------------
+22/12/23 23:54:12 059 [debug]: |              Start Express Server              |
+22/12/23 23:54:12 060 [debug]: --------------------------------------------------
+22/12/23 23:54:12 060 [debug]: server address => http://192.168.0.14:3001
+22/12/23 23:54:12 061 [debug]: --------------------------------------------------
+22/12/23 23:54:34 964 [debug]: --------------------------------------------------
+22/12/23 23:54:34 968 [debug]: |              Start Express Server              |
+22/12/23 23:54:34 969 [debug]: --------------------------------------------------
+22/12/23 23:54:34 970 [debug]: server address => http://192.168.0.14:3001
+22/12/23 23:54:34 971 [debug]: --------------------------------------------------
+22/12/23 23:54:43 052 [debug]: --------------------------------------------------
+22/12/23 23:54:43 091 [debug]: |              Start Express Server              |
+22/12/23 23:54:43 101 [debug]: --------------------------------------------------
+22/12/23 23:54:43 103 [debug]: server address => http://192.168.0.14:3001
+22/12/23 23:54:43 105 [debug]: --------------------------------------------------
+22/12/23 23:55:08 914 [debug]: --------------------------------------------------
+22/12/23 23:55:08 917 [debug]: |              Start Express Server              |
+22/12/23 23:55:08 918 [debug]: --------------------------------------------------
+22/12/23 23:55:08 919 [debug]: server address => http://192.168.0.14:3001
+22/12/23 23:55:08 919 [debug]: --------------------------------------------------
+22/12/23 23:55:43 973 [debug]: --------------------------------------------------
+22/12/23 23:55:43 976 [debug]: |              Start Express Server              |
+22/12/23 23:55:43 977 [debug]: --------------------------------------------------
+22/12/23 23:55:43 978 [debug]: server address => http://192.168.0.14:3001
+22/12/23 23:55:43 978 [debug]: --------------------------------------------------
+22/12/23 23:56:07 112 [debug]: --------------------------------------------------
+22/12/23 23:56:07 115 [debug]: |              Start Express Server              |
+22/12/23 23:56:07 116 [debug]: --------------------------------------------------
+22/12/23 23:56:07 116 [debug]: server address => http://192.168.0.14:3001
+22/12/23 23:56:07 117 [debug]: --------------------------------------------------
